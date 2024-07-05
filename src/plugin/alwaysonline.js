@@ -9,7 +9,7 @@ const alwaysonlineCommand = async (m, Matrix) => {
   const text = m.body.slice(prefix.length + cmd.length).trim().toLowerCase();
 
   if (cmd === 'alwaysonline') {
-    if (!isCreator) return m.reply("*📛 THIS IS AN OWNER COMMAND*");
+    if (!isCreator) return m.reply("*oops, This is an Owner Command*");
     let responseMessage;
 
     if (text === 'on') {
@@ -25,8 +25,8 @@ const alwaysonlineCommand = async (m, Matrix) => {
     try {
       await Matrix.sendMessage(m.from, { text: responseMessage }, { quoted: m });
     } catch (error) {
-      console.error("Error processing your request:", error);
-      await Matrix.sendMessage(m.from, { text: 'Error processing your request.' }, { quoted: m });
+      console.error("Error in processing your request:", error);
+      await Matrix.sendMessage(m.from, { text: 'Error in processing your request.' }, { quoted: m });
     }
   }
 };
