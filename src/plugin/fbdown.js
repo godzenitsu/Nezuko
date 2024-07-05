@@ -35,7 +35,7 @@ const facebookCommand = async (m, Matrix) => {
     }
 
     try {
-      await m.React("🕘");
+      await m.React("🚀");
 
 
       const fbData = await ndown(text);
@@ -60,7 +60,7 @@ const facebookCommand = async (m, Matrix) => {
       const buttons = [{
         name: "single_select",
         buttonParamsJson: JSON.stringify({
-          title: '♂️ Select Quality',
+          title: '⭐ Select Quality',
           sections: sections
         })
       }];
@@ -74,13 +74,13 @@ const facebookCommand = async (m, Matrix) => {
             },
             interactiveMessage: proto.Message.InteractiveMessage.create({
               body: proto.Message.InteractiveMessage.Body.create({
-                text: `Ethix-MD Facebook Video Download\n\n🔍 Select the desired video quality to download.\n\n📌 Choose an option to download.\n\n`
+                text: `Nezuko Facebook Video Download\n\n🔍 Select the desired video quality to download.\n\n📌 Choose an option to download.\n\n`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "© Powered By Ethix-MD"
+                text: "© Powered By Nezuko-Md"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
-                 ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/fbbe1744668b44637c21a.jpg` } }, { upload: Matrix.waUploadToServer })),
+                 ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/76db12f1a28abf0953e4f.jpg` } }, { upload: Matrix.waUploadToServer })),
                 title: "",
                 gifPlayback: true,
                 subtitle: "",
