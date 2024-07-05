@@ -91,20 +91,20 @@ let mode = ethix.public ? 'public' : 'private';
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `╭─────────────━┈⊷
-│㋚ ʙᴏᴛ ɴᴀᴍᴇ: *𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨*
-│㋚ ᴠᴇʀꜱɪᴏɴ: 2.0.3
-│㋚ ᴏᴡɴᴇʀ : *God-Zenitsu*      
-│㋚ ɴᴜᴍʙᴇʀ: 917907387121
-│㋚ ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
-│㋚ ᴍᴏᴅᴇ: *${mode}*
-│㋚ ᴘʀᴇғɪx: *[Multi-Prefix]*
+│㋚ 𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 : *𝚀𝚄𝙴𝙴𝙽-𝙽𝙴𝚉𝚄𝙺𝙾*
+│㋚ 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 2.0.3
+│㋚ 𝙾𝚆𝙽𝙴𝚁 : *𝚉𝙴𝙽𝙸𝚃𝚂𝚄*      
+│㋚ 𝙽𝚄𝙼𝙱𝙴𝚁: 917907387121
+│㋚ 𝙿𝙻𝙰𝚃𝙵𝙾𝚁𝙼: *${os.platform()}*
+│㋚ 𝙼𝙾𝙳𝙴: *${mode}*
+│㋚ 𝙿𝚁𝙴𝙵𝙸𝚇: *[Multi-Prefix]*
 ╰─────────────━┈⊷ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
               text: "© Powered By QUEEN-NEZUKO"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
-                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/ethix.jpg')}, { upload: Matrix.waUploadToServer})), 
+                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/nezuko.jpg')}, { upload: Matrix.waUploadToServer})), 
                   title: ``,
                   gifPlayback: true,
                   subtitle: "",
@@ -177,7 +177,7 @@ let mode = ethix.public ? 'public' : 'private';
                       {
                         "header":"",
                         "title":"⭐ ᴄᴏɴᴠᴇʀᴛᴇʀ ᴍᴇɴᴜ",
-                        "description":"🛷 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐂𝚯𝚴𝛁𝚵𝚪𝚻𝚵𝚪 𝚳𝚵𝚴𝐔",
+                        "description":" 𝚂𝙷𝙾𝚆 𝙲𝙾𝙽𝚅𝙴𝚁𝚃 𝙼𝙴𝙽𝚄",
                         "id":"Converter Menu"
                       }
                     ]}
@@ -206,75 +206,75 @@ let mode = ethix.public ? 'public' : 'private';
   }
       if (selectedId == "View All Menu") {
         const mode = process.env.MODE;
-        const str = `hey ${m.pushName} ${pushwish}
+        const str = `konnichiwa ${m.pushName} ${pushwish}
 ╭─────────────━┈⊷
-│㋚ ʙᴏᴛ ɴᴀᴍᴇ: *𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨*
-│ ᴠᴇʀꜱɪᴏɴ: 2.0.3
-│ ᴏᴡɴᴇʀ : *𝚐𝚘𝚍-𝚣𝚎𝚗𝚒𝚝𝚜𝚞*      
-│ ɴᴜᴍʙᴇʀ: 919142294671
-│ ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
-│ 🛡 ᴍᴏᴅᴇ: *${mode}*
-│💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
+│㋚ 𝙱𝙾𝚃 𝙽𝙰𝙼𝙴: *𝚀𝚄𝙴𝙴𝙽-𝙽𝙴𝚉𝚄𝙺𝙾*
+│㋚ 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 2.0.3
+│㋚ 𝙾𝚆𝙽𝙴𝚁 : *𝚉𝙴𝙽𝙸𝚃𝚂𝚄*      
+│㋚ 𝙽𝚄𝙼𝙱𝙴𝚁: 919142294671
+│㋚ 𝙿𝙻𝙰𝚃𝙵𝙾𝚁𝙼: *${os.platform()}*
+│㋚ 𝙼𝙾𝙳𝙴: *${mode}*
+│㋚ 𝙿𝚁𝙴𝙵𝙸𝚇: *[Multi-Prefix]*
 ╰─────────────━┈⊷ 
 ╭━❮ 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 ❯━╮
-┃✰ ${prefix}𝙰𝚃𝚃𝙿
-┃✰ ${prefix}𝙰𝚃𝚃𝙿2
-┃✰ ${prefix}𝙰𝚃𝚃𝙿3
-┃✰ ${prefix}𝙴𝙱𝙸𝙽𝙰𝚁𝚈
-┃✰ ${prefix}𝙳𝙱𝙸𝙽𝙰𝚁𝚈
-┃✰ ${prefix}𝙴𝙼𝙾𝙹𝙸𝙼𝙸𝚇
-┃✰ ${prefix}𝙼𝙿3
+┃◦➛ ${prefix}𝙰𝚃𝚃𝙿
+┃◦➛ ${prefix}𝙰𝚃𝚃𝙿2
+┃◦➛ ${prefix}𝙰𝚃𝚃𝙿3
+┃◦➛ ${prefix}𝙴𝙱𝙸𝙽𝙰𝚁𝚈
+┃◦➛ ${prefix}𝙳𝙱𝙸𝙽𝙰𝚁𝚈
+┃◦➛ ${prefix}𝙴𝙼𝙾𝙹𝙸𝙼𝙸𝚇
+┃◦➛ ${prefix}𝙼𝙿3
 ╰━━━━━━━━━━━━━━━⪼
 ╭━❮ 𝙰𝙸 ❯━╮
-┃✰ ${prefix}𝙰𝚒
-┃✰ ${prefix}𝙱𝚞𝚐
-┃✰ ${prefix}𝚁𝚎𝚙𝚘𝚛𝚝
-┃✰ ${prefix}𝙶𝚙𝚝
-┃✰ ${prefix}𝙳𝚊𝚕𝚕𝚎
-┃✰ ${prefix}𝚁𝚎𝚖𝚒𝚗𝚒
-┃✰ ${prefix}𝙶𝚎𝚖𝚒𝚗𝚒
+┃◦➛ ${prefix}𝙰𝚒
+┃◦➛ ${prefix}𝙱𝚞𝚐
+┃◦➛ ${prefix}𝚁𝚎𝚙𝚘𝚛𝚝
+┃◦➛ ${prefix}𝙶𝚙𝚝
+┃◦➛ ${prefix}𝙳𝚊𝚕𝚕𝚎
+┃◦➛ ${prefix}𝚁𝚎𝚖𝚒𝚗𝚒
+┃◦➛ ${prefix}𝙶𝚎𝚖𝚒𝚗𝚒
 ╰━━━━━━━━━━━━━━━⪼
 ╭━❮ 𝚃𝙾𝙾𝙻 ❯━╮
-┃✰ ${prefix}𝙲𝚊𝚕𝚌𝚞𝚕𝚊𝚝𝚘𝚛
-┃✰ ${prefix}𝚃𝚎𝚖𝚙𝚖𝚊𝚒𝚕
-┃✰ ${prefix}𝙲𝚑𝚎𝚌𝚔𝚖𝚊𝚒𝚕
-┃✰ ${prefix}𝚃𝚛𝚝
-┃✰ ${prefix}𝚃𝚝𝚜
+┃◦➛ ${prefix}𝙲𝚊𝚕𝚌𝚞𝚕𝚊𝚝𝚘𝚛
+┃◦➛ ${prefix}𝚃𝚎𝚖𝚙𝚖𝚊𝚒𝚕
+┃◦➛ ${prefix}𝙲𝚑𝚎𝚌𝚔𝚖𝚊𝚒𝚕
+┃◦➛ ${prefix}𝚃𝚛𝚝
+┃◦➛ ${prefix}𝚃𝚝𝚜
 ╰━━━━━━━━━━━━━━━⪼
 ╭━❮ 𝙶𝚁𝙾𝚄𝙿 ❯━╮
-┃✰ ${prefix}𝙻𝚒𝚗𝚔𝙶𝚛𝚘𝚞𝚙
-┃✰ ${prefix}𝚂𝚎𝚝𝚙𝚙𝚐𝚌
-┃✰ ${prefix}𝚂𝚎𝚝𝚗𝚊𝚖𝚎
-┃✰ ${prefix}𝚂𝚎𝚝𝚍𝚎𝚜𝚌
-┃✰ ${prefix}𝙶𝚛𝚘𝚞𝚙
-┃✰ ${prefix}𝙶𝚌𝚜𝚎𝚝𝚝𝚒𝚗𝚐
-┃✰ ${prefix}𝚆𝚎𝚕𝚌𝚘𝚖𝚎
-┃✰ ${prefix}𝙰𝚍𝚍
-┃✰ ${prefix}𝙺𝚒𝚌𝚔
-┃✰ ${prefix}𝙷𝚒𝚍𝚎𝚃𝚊𝚐
-┃✰ ${prefix}𝚃𝚊𝚐𝚊𝚕𝚕
-┃✰ ${prefix}𝙰𝚗𝚝𝚒𝙻𝚒𝚗𝚔
-┃✰ ${prefix}𝙰𝚗𝚝𝚒𝚃𝚘𝚡𝚒𝚌
-┃✰ ${prefix}𝙿𝚛𝚘𝚖𝚘𝚝𝚎
-┃✰ ${prefix}𝙳𝚎𝚖𝚘𝚝𝚎
-┃✰ ${prefix}𝙶𝚎𝚝𝚋𝚒𝚘
+┃◦➛ ${prefix}𝙻𝚒𝚗𝚔𝙶𝚛𝚘𝚞𝚙
+┃◦➛ ${prefix}𝚂𝚎𝚝𝚙𝚙𝚐𝚌
+┃◦➛ ${prefix}𝚂𝚎𝚝𝚗𝚊𝚖𝚎
+┃◦➛ ${prefix}𝚂𝚎𝚝𝚍𝚎𝚜𝚌
+┃◦➛ ${prefix}𝙶𝚛𝚘𝚞𝚙
+┃◦➛ ${prefix}𝙶𝚌𝚜𝚎𝚝𝚝𝚒𝚗𝚐
+┃◦➛ ${prefix}𝚆𝚎𝚕𝚌𝚘𝚖𝚎
+┃◦➛ ${prefix}𝙰𝚍𝚍
+┃◦➛ ${prefix}𝙺𝚒𝚌𝚔
+┃◦➛ ${prefix}𝙷𝚒𝚍𝚎𝚃𝚊𝚐
+┃◦➛ ${prefix}𝚃𝚊𝚐𝚊𝚕𝚕
+┃◦➛ ${prefix}𝙰𝚗𝚝𝚒𝙻𝚒𝚗𝚔
+┃◦➛ ${prefix}𝙰𝚗𝚝𝚒𝚃𝚘𝚡𝚒𝚌
+┃◦➛ ${prefix}𝙿𝚛𝚘𝚖𝚘𝚝𝚎
+┃◦➛ ${prefix}𝙳𝚎𝚖𝚘𝚝𝚎
+┃◦➛ ${prefix}𝙶𝚎𝚝𝚋𝚒𝚘
 ╰━━━━━━━━━━━━━━━⪼
 ╭━❮ 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 ❯━╮
-┃✰ ${prefix}𝙰𝚙𝚔
-┃✰ ${prefix}𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔
-┃✰ ${prefix}𝙼𝚎𝚍𝚒𝚊𝚏𝚒𝚛𝚎
-┃✰ ${prefix}𝙿𝚒𝚗𝚝𝚎𝚛𝚎𝚜𝚝𝚍𝚕
-┃✰ ${prefix}𝙶𝚒𝚝𝚌𝚕𝚘𝚗𝚎
-┃✰ ${prefix}𝙶𝚍𝚛𝚒𝚟𝚎
-┃✰ ${prefix}𝙸𝚗𝚜𝚝𝚊
-┃✰ ${prefix}𝚈𝚝𝚖𝚙3
-┃✰ ${prefix}𝚈𝚝𝚖𝚙4
-┃✰ ${prefix}𝙿𝚕𝚊𝚢
-┃✰ ${prefix}𝚂𝚘𝚗𝚐
-┃✰ ${prefix}𝚅𝚒𝚍𝚎𝚘
-┃✰ ${prefix}𝚈𝚝𝚖𝚙3𝚍𝚘𝚌
-┃✰ ${prefix}𝚈𝚝𝚖𝚙4𝚍𝚘𝚌
-┃✰ ${prefix}𝚃𝚒𝚔𝚝𝚘𝚔
+┃◦➛ ${prefix}𝙰𝚙𝚔
+┃◦➛ ${prefix}𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔
+┃◦➛ ${prefix}𝙼𝚎𝚍𝚒𝚊𝚏𝚒𝚛𝚎
+┃◦➛ ${prefix}𝙿𝚒𝚗𝚝𝚎𝚛𝚎𝚜𝚝𝚍𝚕
+┃◦➛ ${prefix}𝙶𝚒𝚝𝚌𝚕𝚘𝚗𝚎
+┃◦➛ ${prefix}𝙶𝚍𝚛𝚒𝚟𝚎
+┃◦➛ ${prefix}𝙸𝚗𝚜𝚝𝚊
+┃◦➛ ${prefix}𝚈𝚝𝚖𝚙3
+┃◦➛ ${prefix}𝚈𝚝𝚖𝚙4
+┃◦➛ ${prefix}𝙿𝚕𝚊𝚢
+┃◦➛ ${prefix}𝚂𝚘𝚗𝚐
+┃◦➛ ${prefix}𝚅𝚒𝚍𝚎𝚘
+┃◦➛ ${prefix}𝚈𝚝𝚖𝚙3𝚍𝚘𝚌
+┃◦➛ ${prefix}𝚈𝚝𝚖𝚙4𝚍𝚘𝚌
+┃◦➛ ${prefix}𝚃𝚒𝚔𝚝𝚘𝚔
 ╰━━━━━━━━━━━━━━━⪼
 ╭━❮ 𝚂𝙴𝙰𝚁𝙲𝙷 ❯━╮
 ┃✰ ${prefix}𝙿𝚕𝚊𝚢
@@ -324,8 +324,8 @@ let mode = ethix.public ? 'public' : 'private';
             },
             message: {
                 contactMessage: {
-                    displayName: `Ethix-MD`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'Ethix-MD'\nitem1.TEL;waid=${
+                    displayName: `𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨'\nitem1.TEL;waid=${
                         m.sender.split("@")[0]
                     }:${
                         m.sender.split("@")[0]
@@ -334,7 +334,7 @@ let mode = ethix.public ? 'public' : 'private';
             }
         };
        let { key } = await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ethix.jpg'), 
+  image: fs.readFileSync('./src/nezuko.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -342,7 +342,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
               }
@@ -373,7 +373,7 @@ let mode = ethix.public ? 'public' : 'private';
 ┃✰ ${prefix}𝚃𝚒𝚔𝚝𝚘𝚔
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ethix.jpg'), 
+  image: fs.readFileSync('./src/nezuko.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -381,7 +381,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
               }
@@ -414,7 +414,7 @@ await Matrix.sendMessage(m.from, {
 ╰━━━━━━━━━━━━━━━⪼
      `
      await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ethix.jpg'), 
+  image: fs.readFileSync('./src/nezuko.jpg'), 
   caption: str, 
   contextInfo: {
     mentionedJid: [m.sender], 
@@ -439,7 +439,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙸𝚗𝚏𝚘𝚋𝚘𝚝
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ethix.jpg'), 
+  image: fs.readFileSync('./src/nezuko.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -447,7 +447,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
               }
@@ -478,7 +478,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝚊𝚞𝚝𝚘𝚜𝚟𝚒𝚎𝚠
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ethix.jpg'), 
+  image: fs.readFileSync('./src/nezuko.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -486,7 +486,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
               }
@@ -514,7 +514,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙻𝚢𝚛𝚒𝚌𝚜
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ethix.jpg'), 
+  image: fs.readFileSync('./src/nezuko.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -522,7 +522,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
               }
@@ -542,7 +542,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙶𝚒𝚝𝚑𝚞𝚋𝚂𝚝𝚊𝚕𝚔
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ethix.jpg'), 
+  image: fs.readFileSync('./src/nezuko.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -550,7 +550,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
               }
@@ -573,7 +573,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝚃𝚝𝚜
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ethix.jpg'), 
+  image: fs.readFileSync('./src/nezuko.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -581,7 +581,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
               }
@@ -605,7 +605,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙶𝚎𝚖𝚒𝚗𝚒
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ethix.jpg'), 
+  image: fs.readFileSync('./src/nezuko.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -613,7 +613,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
               }
@@ -638,7 +638,7 @@ await Matrix.sendMessage(m.from, {
 ╰━━━━━━━━━━━━━━━⪼
      `
      await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/ethix.jpg'), 
+  image: fs.readFileSync('./src/nezuko.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -646,7 +646,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
               }
