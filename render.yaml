@@ -25,5 +25,3 @@ services:
         value: true
       - key: AUTO_BLOCK
         value: false
-
-https://jarvis.lokiser.xyz/render.html
