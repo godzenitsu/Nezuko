@@ -54,7 +54,7 @@
 ## DEVELOPERS
 
 <div align="left">
-  <a href="https://github.com/godzenitsu"><img src="https://i.imgur.com/02y6tEy.jpeg" width="300" height="200" alt="Sid"></a>
+  <a href="https://github.com/godzenitsu"><img src="https://telegra.ph/file/7d301fe696cea1cddad2a.jpg" width="300" height="250" alt="Sid"></a>
   
   | [Zenitsu](https://github.com/godzenitsu) |
   | Owner, Developer, Bug Fixer, Maintainer, updates |
@@ -62,10 +62,10 @@
 
 ## HELPERS
 
-<a href="https://github.com/chhaseeb47"><img src="https://github.com/Loki-Xer.png?size=100" width="130" height="100"></a> | [<img src="https://github.com/ayooh-me.png?size=100" width="100" height="100">](https://github.com/Rushmaster12) 
+<a href="https://github.com/chhaseeb47"><img src="https://github.com/Loki-Xer.png?size=100" width="130" height="150"></a> | [<img src="https://github.com/ayooh-me.png?size=100" width="100" height="100">](https://github.com/Rushmaster12) 
 ---|---
 [Loki](https://github.com/Loki-Xer)  | [Ayooh](https://github.com/ayooh-me)
-Promotion | Groups Management|
+SESSION | Modules, Files Helper|
 
 
 ## Reminder
