@@ -10,11 +10,11 @@
   <a href="https://github.com/godzenitsu"><img title="Author" src="https://img.shields.io/badge/godzenitsu-black?style=for-the-badge&logo=WhatsApp"></a>
 </p>
 
-<p align="center">Introducing Nezuko-md, It is designed to bring a whole new level of excitement to your boring WhatsApp use.</p>
+<p align="center">𝙸𝙽𝚃𝙾𝙳𝚄𝙲𝙸𝙽𝙶 𝙽𝙴𝚉𝚄𝙺𝙾 𝙼𝙳, 𝙸𝚃 𝙸𝚂 𝙳𝙴𝚂𝙸𝙶𝙽𝙴𝙳 𝚃𝙾 𝙱𝚁𝙸𝙽𝙶 𝙰 𝚆𝙷𝙾𝙻𝙴 𝙻𝙴𝚅𝙴𝙻 𝙾𝙵 𝙴𝚇𝙲𝙸𝚃𝙼𝙴𝙽𝚃 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙱𝙾𝚁𝙸𝙽𝙶 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚄𝚂𝙴</p>
 
 <p align="center">
-  <a aria-label="NEZUKO-MD is free to use" href="https://kamado-nezuko-web.vercel.app/" target="_blank">
-    <img alt="NEZUKO-MD" src="https://img.shields.io/youtub" target="_blank" />
+  <a aria-label="NEZUKO-MD is free to use" href='https://kamado-nezuko-web.vercel.app/' target="_blank"><img 'WEBSITE' src='https://img.shields.io/badge/-BOT-WEB-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+
   </a>
 </p>
 
