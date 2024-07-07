@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (Ethix-MD)",
+  "name": "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Ethix-Xsid/Ethix-MD",
+  "repository": "https://github.com/godzenitsu/Nezuko",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
