@@ -1,7 +1,7 @@
-# Ethix-MD
+# Queen-Nezuko
 
 <p align="center">
-  <a href="https://queen-nezuko-web.onrender.com/">
+  <a href="https://kamado-nezuko-web.vercel.app/">
     <img alt="Queen-Nezuko" height="300" src="https://telegra.ph/file/76db12f1a28abf0953e4f.jpg">
   </a>
 </p>
@@ -30,7 +30,7 @@
 
 ### 2. GET SESSION ID 
 
-<a href='https://queen-nezuko-web.onrender.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href='https://queen-nezuko-web.onrender.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-black?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 ### DEPLOY TO HEROKU
 
