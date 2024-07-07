@@ -351,7 +351,7 @@ let mode = ethix.public ? 'public' : 'private';
 });
 }
    if ( selectedId == "Downloader Menu") {
-     const str = `╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str = `╭───❮ *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* ❯
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
@@ -391,7 +391,7 @@ await Matrix.sendMessage(m.from, {
 }
    
    if ( selectedId == "Group Menu") {
-     const str = `╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str = `╭───❮ *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* ❯
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
@@ -427,7 +427,7 @@ await Matrix.sendMessage(m.from, {
 }
    
    if (selectedId == "Main Menu") {
-     const str =`╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str =`╭───❮ *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* ❯
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
@@ -457,7 +457,7 @@ await Matrix.sendMessage(m.from, {
 }
    
    if (selectedId == "Owner Menu") {
-     const str = `╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str = `╭───❮ *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* ❯
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
@@ -496,7 +496,7 @@ await Matrix.sendMessage(m.from, {
 }
    
    if (selectedId == "Search Menu") {
-     const str =`╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str =`╭───❮ *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* ❯
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
@@ -531,7 +531,7 @@ await Matrix.sendMessage(m.from, {
 });
 }
    if (selectedId == "Stalk Menu") {
-     const str =`╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str =`╭───❮ *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* ❯
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
@@ -560,7 +560,7 @@ await Matrix.sendMessage(m.from, {
 }
    
    if (selectedId == "Tool Menu") {
-     const str =`╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str =`╭───❮ *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* ❯
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
@@ -591,7 +591,7 @@ await Matrix.sendMessage(m.from, {
 }
    
    if (selectedId == "Ai Menu") {
-     const str =`╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str =`╭───❮ *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* ❯
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
@@ -623,7 +623,7 @@ await Matrix.sendMessage(m.from, {
 }
    
    if (selectedId == "Converter Menu") {
-     const str =`╭───❮ *s ᴇ ʀ ᴠ ᴇ ʀ* ❯
+     const str =`╭───❮ *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* ❯
 │➥ 𝚃𝙾𝚃𝙰𝙻 𝚁𝙰𝙼: ${formatBytes(totalMemoryBytes)}
 │➥ 𝙵𝚁𝙴𝙴 𝚁𝙰𝙼: ${formatBytes(freeMemoryBytes)}
 ╰━━━━━━━━━━━━━━━➥
@@ -645,7 +645,7 @@ await Matrix.sendMessage(m.from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
+                  newsletterJid: '',
                   newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
