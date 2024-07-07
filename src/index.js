@@ -118,7 +118,7 @@ async function start() {
                     Matrix.sendMessage(Matrix.user.id, { text: `Nezuko Is Alive✅` });
                     initialConnection = false;
                 } else {
-                    console.log(chalk.blue("♻️ Connection reestablished after restart."));
+                    console.log(chalk.blue("♻️ Connection restablished after restart."));
                 }
             }
         });
