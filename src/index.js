@@ -69,7 +69,7 @@ async function downloadSessionData() {
         process.exit(1);
     }
     const sessdata = config.SESSION_ID.split("Queen-Nezuko~")[1];
-    const url = `https://paste.c-net.org/${sessdata}`;
+    const url = `https://pastebin.com/raw/${sessdata}`;
     try {
         const response = await axios.get(url);
         const data = typeof response.data === 'string' ? response.data : JSON.stringify(response.data);
