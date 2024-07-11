@@ -16,7 +16,7 @@ const deleteMessage = async (m, gss) => {
       }
 
       if (!m.quoted) {
-        return m.reply('✳️ Reply to the message you want to delete');
+        return m.reply(' Reply to the message you want to delete!!');
       }
 
       const key = {
