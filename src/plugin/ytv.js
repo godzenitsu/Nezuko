@@ -75,7 +75,7 @@ const song = async (m, Matrix) => {
             },
             interactiveMessage: proto.Message.InteractiveMessage.create({
               body: proto.Message.InteractiveMessage.Body.create({
-                text: `NEZUKO Video Downloader\n*🔍Title:* ${videoDetails.title}\n*✍️ Author:* ${videoDetails.author}\n*🥸Views:* ${videoDetails.views}\n*👍 Likes:* ${videoDetails.likes}\n*📆 Upload Date:* ${videoDetails.uploadDate}\n*🏮 Duration:* ${videoDetails.duration}\n`
+                text: `NEZUKO Video Downloader\n*🔍Title:* ${videoDetails.title}\n*➻ Author:* ${videoDetails.author}\n*➻ Views:* ${videoDetails.views}\n*➻ Likes:* ${videoDetails.likes}\n*➻ Upload Date:* ${videoDetails.uploadDate}\n*🏮 Duration:* ${videoDetails.duration}\n`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
                 text: "© Powered By NEZUKO"
@@ -95,7 +95,7 @@ const song = async (m, Matrix) => {
                       title: "🎬 Select a video quality",
                       sections: [
                         {
-                          title: "♂️ Available Qualities",
+                          title: "☁️ Available Qualities",
                           highlight_label: "💡 Choose Quality",
                           rows: qualityButtons
                         },
