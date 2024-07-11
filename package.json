@@ -8,7 +8,7 @@
     "start": "pm2 start index.js --deep-monitoring --attach --name Queen-Nezuko"
   },
   "keywords": ["Nezuko", "whatsapp-bot", "zenitsu"],
-  "author": "God-zenitsh",
+  "author": "God-zenitsu",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
