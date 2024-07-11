@@ -91,17 +91,17 @@ let mode = ethix.public ? 'public' : 'private';
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `╭─────────────━┈⊷
-│㋚ 𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 : *𝚀𝚄𝙴𝙴𝙽-𝙽𝙴𝚉𝚄𝙺𝙾*
-│㋚ 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 2.0.3
-│㋚ 𝙾𝚆𝙽𝙴𝚁 : *𝚉𝙴𝙽𝙸𝚃𝚂𝚄*      
-│㋚ 𝙽𝚄𝙼𝙱𝙴𝚁: 917907387121
-│㋚ 𝙿𝙻𝙰𝚃𝙵𝙾𝚁𝙼: *${os.platform()}*
-│㋚ 𝙼𝙾𝙳𝙴: *${mode}*
-│㋚ 𝙿𝚁𝙴𝙵𝙸𝚇: *[Multi-Prefix]*
+│ 𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 : *𝚀𝚄𝙴𝙴𝙽-𝙽𝙴𝚉𝚄𝙺𝙾*
+│ 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 2.0.3
+│ 𝙾𝚆𝙽𝙴𝚁 : *𝚉𝙴𝙽𝙸𝚃𝚂𝚄*      
+│ 𝙽𝚄𝙼𝙱𝙴𝚁: 917907387121
+│ 𝙿𝙻𝙰𝚃𝙵𝙾𝚁𝙼: *${os.platform()}*
+│ 𝙼𝙾𝙳𝙴: *${mode}*
+│ 𝙿𝚁𝙴𝙵𝙸𝚇: *[Multi-Prefix]*
 ╰─────────────━┈⊷ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© Powered By QUEEN-NEZUKO"
+              text: "© 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝙱𝚢 𝚀𝚞𝚎𝚎𝚗-𝙽𝚎𝚣𝚞𝚔𝚘"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/nezuko.jpg')}, { upload: Matrix.waUploadToServer})), 
@@ -114,7 +114,7 @@ let mode = ethix.public ? 'public' : 'private';
               buttons: [
                 {
                   "name": "single_select",
-                  "buttonParamsJson": `{"title":"TAP FOR OPEN MENU",
+                  "buttonParamsJson": `{"title":"Tap Here",
                  "sections":
                    [{
                     "title":"𝙽𝙴𝚉𝚄𝙺𝙾 𝙰𝙻𝙻 𝙿𝙻𝚄𝙶𝙸𝙽𝚂",
