@@ -1,6 +1,6 @@
 const report = async (m, gss) => {
   const reportedMessages = {};
-  const devlopernumber = '919142294671';
+  const devlopernumber = '917907387121';
 const prefixMatch = m.body.match(/^[\\/!#.]/);
   const prefix = prefixMatch ? prefixMatch[0] : '/';
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
@@ -10,12 +10,12 @@ const prefixMatch = m.body.match(/^[\\/!#.]/);
   
   if (validCommands.includes(cmd)) {
     
-  if (!text) return m.reply(`Example: ${prefix + cmd} hi dev play command is not working`);
+  if (!text) return m.reply(`Example: ${prefix + cmd} Hey Zenitsu play command is not working`);
 
     const messageId = m.key.id;
 
     if (reportedMessages[messageId]) {
-        return m.reply("This report has already been forwarded to the owner. Please wait for a response.");
+        return m.reply("This report has already been forwarded to the Developer. Please wait for a response.");
     }
 
     reportedMessages[messageId] = true;
