@@ -69,7 +69,7 @@ const mistral = async (m, Matrix) => {
 
   if (validCommands.includes(cmd)) {
         if (!prompt) {
-            await Matrix.sendMessage(m.from, { text: 'Please give me a prompt' }, { quoted: m });
+            await Matrix.sendMessage(m.from, { text: 'Please give me a prompt!!' }, { quoted: m });
             return;
         }
 
@@ -84,7 +84,7 @@ const mistral = async (m, Matrix) => {
                 { role: "user", content: prompt }
             ];
             
-            await m.React("⏳");
+            await m.React("⭐");
 
             const response = await fetch('https://matrixcoder.tech/api/ai', {
                 method: 'POST',
