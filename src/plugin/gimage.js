@@ -13,7 +13,7 @@ const imageCommand = async (m, sock) => {
 
   if (validCommands.includes(cmd)) {
     if (!query) {
-      return sock.sendMessage(m.from, { text: `Usage: ${prefix + cmd} black cats` });
+      return sock.sendMessage(m.from, { text: `Usage: ${prefix + cmd} Zenitsu` });
     }
 
     try {
