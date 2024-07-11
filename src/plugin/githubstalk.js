@@ -25,7 +25,7 @@ const githubStalk = async (m, gss) => {
         }
 
         // Construct the response message
-        let responseMessage = `🌟 *GitHub Profile - @${userData.login}*\n\n`;
+        let responseMessage = `🎗️ *GitHub Profile - @${userData.login}*\n\n`;
         responseMessage += `  ◦  *Name*: ${userData.name || 'N/A'}\n`;
         responseMessage += `  ◦  *Username*: @${userData.login}\n`;
         responseMessage += `  ◦  *Bio*: ${userData.bio || 'N/A'}\n`;
@@ -59,7 +59,7 @@ const githubStalk = async (m, gss) => {
   ◦  *Forks*: ${repo.forks}`;
           });
 
-          const reposCaption = `📚 *Top Starred Repositories*\n\n${reposList.join('\n\n')}`;
+          const reposCaption = `⭐ *Top Starred Repositories*\n\n${reposList.join('\n\n')}`;
           responseMessage += `\n\n${reposCaption}`;
         } else {
           responseMessage += `\n\nNo public repositories found.`;
