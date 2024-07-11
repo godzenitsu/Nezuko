@@ -97,7 +97,7 @@ try {
         mimetype: 'audio/mpeg',
         ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100],
-        fileName: "Matrix.mp3",
+        fileName: "Nezuko.mp3",
 
         contextInfo: {
           mentionedJid: [m.sender],
@@ -107,7 +107,7 @@ try {
             thumbnailUrl: firstVideo.thumbnail,
             sourceUrl: null,
             mediaType: 1,
-            renderLargerThumbnail: false
+            renderLargerThumbnail: true
           }
         }
     };
