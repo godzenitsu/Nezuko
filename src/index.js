@@ -12,7 +12,7 @@ import {
     useMultiFileAuthState,
     getAggregateVotesInPollMessage
 } from '@whiskeysockets/baileys';
-import { Handler, Callupdate, GroupUpdate } from './event/index.js';
+import { Handler, Callupdate, GroupUpdate } from './src/event/index.js';
 import { Boom } from '@hapi/boom';
 import express from 'express';
 import pino from 'pino';
@@ -25,13 +25,13 @@ import moment from 'moment-timezone';
 import axios from 'axios';
 import fetch from 'node-fetch';
 import * as os from 'os';
-import config from '../config.cjs';
-import pkg from '../lib/autoreact.cjs';
+import config from './config.cjs';
+import pkg from './lib/autoreact.cjs';
 const { emojis, doReact } = pkg;
 
 const sessionName = "session";
 const app = express();
-const orange = chalk.bold.hex("#FFA500");
+const orange = chalk.bold.hex("#FF500");
 const lime = chalk.bold.hex("#32CD32");
 let useQR;
 let isSessionPutted;
@@ -68,15 +68,15 @@ async function downloadSessionData() {
         console.error('Please add your session to SESSION_ID env !!');
         process.exit(1);
     }
-    const sessdata = config.SESSION_ID.split("Queen-Nezuko~")[1];
+    const sessdata = config.SESSION_ID.split("Ethix-MD&")[1];
     const url = `https://pastebin.com/raw/${sessdata}`;
     try {
         const response = await axios.get(url);
         const data = typeof response.data === 'string' ? response.data : JSON.stringify(response.data);
         await fs.promises.writeFile(credsPath, data);
-        console.log(" Session Successfully Loaded !!");
+        console.log("Creds json Successfully stored!!");
     } catch (error) {
-        console.error('Failed to download session data:', error);
+        console.error(' Failed to download session data:', error);
         process.exit(1);
     }
 }
@@ -89,20 +89,20 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`Nezuko using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤖 Nezuko-MD using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: true,
-            browser: Browsers.windows('Firefox'),
+            browser: ["Ethix-MD", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "Nezuko Nonstop Testing" };
+                return { conversation: "Queen-Nezuko Nonstop Testing" };
             }
         });
 
@@ -114,11 +114,11 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("Nezuko Is Alive✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `Nezuko Is Alive✅` });
+                    console.log(chalk.green("Plugins Loaded...!"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `Nezuko Is alive ✅` });
                     initialConnection = false;
                 } else {
-                    console.log(chalk.blue("♻️ Connection restablished after restart."));
+                    console.log(chalk.blue("♻️ Connection reestablished after restart."));
                 }
             }
         });
@@ -158,7 +158,7 @@ async function start() {
 start();
 
 app.get('/', (req, res) => {
-    res.send('Nezuko Is Alive!');
+    res.send('Hello World!');
 });
 
 app.listen(PORT, () => {
