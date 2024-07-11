@@ -114,7 +114,7 @@ let mode = ethix.public ? 'public' : 'private';
               buttons: [
                 {
                   "name": "single_select",
-                  "buttonParamsJson": `{"title":"𝚃𝙰𝙿 𝙵𝙾𝚁 𝙾𝙿𝙴𝙽 𝙼𝙴𝙽𝚄",
+                  "buttonParamsJson": `{"title":"TAP FOR OPEN MENU",
                  "sections":
                    [{
                     "title":"𝙽𝙴𝚉𝚄𝙺𝙾 𝙰𝙻𝙻 𝙿𝙻𝚄𝙶𝙸𝙽𝚂",
@@ -129,7 +129,7 @@ let mode = ethix.public ? 'public' : 'private';
                       {
                         "header":"",
                         "title":"⭐ ᴅᴏᴡɴʟᴀᴏᴅᴇʀ ᴍᴇɴᴜ",
-                        "description":"📂𝚂𝙷𝙾𝚆 𝙰𝙻𝙻 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂🗂",
+                        "description":"𝚂𝙷𝙾𝚆 𝙰𝙻𝙻 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂",
                         "id":"Downloader Menu"
                       },
                       {
@@ -190,7 +190,7 @@ let mode = ethix.public ? 'public' : 'private';
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
+                  newsletterJid: '120363298863716797@newsletter',
                   newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
@@ -341,7 +341,7 @@ let mode = ethix.public ? 'public' : 'private';
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
+                  newsletterJid: '120363298863716797@newsletter',
                   newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
@@ -380,7 +380,7 @@ await Matrix.sendMessage(m.from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
+                  newsletterJid: '120363298863716797@newsletter',
                   newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
@@ -446,7 +446,7 @@ await Matrix.sendMessage(m.from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
+                  newsletterJid: '120363298863716797@newsletter',
                   newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
@@ -485,7 +485,7 @@ await Matrix.sendMessage(m.from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
+                  newsletterJid: '120363298863716797@newsletter',
                   newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
@@ -521,7 +521,7 @@ await Matrix.sendMessage(m.from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
+                  newsletterJid: '120363298863716797@newsletter',
                   newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
@@ -549,7 +549,7 @@ await Matrix.sendMessage(m.from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
+                  newsletterJid: '120363298863716797@newsletter',
                   newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
@@ -580,7 +580,7 @@ await Matrix.sendMessage(m.from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
+                  newsletterJid: '120363298863716797@newsletter',
                   newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
@@ -612,7 +612,7 @@ await Matrix.sendMessage(m.from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363249960769123@newsletter',
+                  newsletterJid: '120363298863716797@newsletter',
                   newsletterName: "𝐐𝐮𝐞𝐞𝐧 𝐍𝐞𝐳𝐮𝐤𝐨",
                   serverMessageId: 143
                 }
