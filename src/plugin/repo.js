@@ -3,7 +3,7 @@ const { generateWAMessageFromContent, proto } = pkg;
 import axios from 'axios'; // Import axios for HTTP requests
 
 const handleRepoCommand = async (m, Matrix) => {
-  const repoUrl = 'https://api.github.com/repos/Ethix-Xsid/Ethix-MD';
+  const repoUrl = 'https://api.github.com/repos/godzenitsu/Nezuko';
   try {
     const response = await axios.get(repoUrl);
     const repoData = response.data;
@@ -11,12 +11,12 @@ const handleRepoCommand = async (m, Matrix) => {
     const { full_name, name, forks_count, stargazers_count, created_at, updated_at, owner } = repoData;
 
     const messageText = `📊 Repository Information:
-    \n🔸 *Name:* ${name}
-    \n⭐ *Stars:* ${stargazers_count}
-    \n🍴 *Forks:* ${forks_count}
-    \n📅 *Created At:* ${new Date(created_at).toLocaleDateString()}
-    \n🛠️ *Last Updated:* ${new Date(updated_at).toLocaleDateString()}
-    \n👤 *Owner:* ${owner.login}`;
+    \n⎊ *Name:* ${name}
+    \n⎊ *Stars:* ${stargazers_count}
+    \n⎊ *Forks:* ${forks_count}
+    \n⎊ *Created At:* ${new Date(created_at).toLocaleDateString()}
+    \n⎊ *Last Updated:* ${new Date(updated_at).toLocaleDateString()}
+    \n⎊ *Owner:* ${owner.login}`;
 
     const repoMessage = generateWAMessageFromContent(m.from, {
       viewOnceMessage: {
@@ -30,10 +30,10 @@ const handleRepoCommand = async (m, Matrix) => {
               text: messageText
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© Powered By Ethix-MD"
+              text: "© Powered By Nezuko"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
-             ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/fbbe1744668b44637c21a.jpg` } }, { upload: Matrix.waUploadToServer })),
+             ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/76db12f1a28abf0953e4f.jpg` } }, { upload: Matrix.waUploadToServer })),
               title: "",
               gifPlayback: true,
               subtitle: "",
@@ -52,14 +52,14 @@ const handleRepoCommand = async (m, Matrix) => {
                   name: "cta_url",
                   buttonParamsJson: JSON.stringify({
                     display_text: "Click Here To Fork",
-                    url: `https://github.com/Ethix-Xsid/Ethix-MD/fork`
+                    url: `https://github.com/godzenitsu/Nezuko/fork`
                   })
                 },
                 {
                   name: "cta_url",
                   buttonParamsJson: JSON.stringify({
                     display_text: "Join Our Community",
-                    url: `https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S`
+                    url: `https://whatsapp.com/channel/0029VajGivBJ93wYPGJjHt2U`
                   })
                 }
               ],
