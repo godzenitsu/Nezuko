@@ -21,7 +21,7 @@ const givetextCommand = async (m, Matrix) => {
 
     try {
       const media = await m.quoted.download(); 
-      if (!media) throw new Error('Failed to download media.');
+      if (!media) throw new Error('*Bad Request :(*');
 
       const filePath = `./${Date.now()}.png`;
       await writeFile(filePath, media);
