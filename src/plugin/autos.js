@@ -12,7 +12,7 @@ const anticallCommand = async (m, Matrix) => {
   const validCommands = ['autostatus', 'autosview', 'autostatusview'];
 
  if (validCommands.includes(cmd)){
-   if (!isCreator) return m.reply("*📛 THIS IS AN OWNER COMMAND*");
+   if (!isCreator) return m.reply("*⚠️ THIS IS AN OWNER COMMAND*");
     let responseMessage;
 
     if (text === 'on') {
