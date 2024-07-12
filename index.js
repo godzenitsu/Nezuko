@@ -115,7 +115,7 @@ async function start() {
             } else if (connection === 'open') {
                 if (initialConnection) {
                     console.log(chalk.green("Plugins Loaded...!"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `Nezuko Is alive ✅` });
+                    Matrix.sendMessage(Matrix.user.id, { text: `𝐍𝐄𝐙𝐔𝐊𝐎 𝐒𝐓𝐀𝐑𝐓𝐄𝐃` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
