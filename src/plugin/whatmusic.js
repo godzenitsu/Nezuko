@@ -40,11 +40,11 @@ const shazam = async (m, gss) => {
 
       const { title, artists, album, genres, release_date } = res.metadata.music[0];
       const txt = `𝚁𝙴𝚂𝚄𝙻𝚃 
-      • 📌 *TITLE*: ${title}
-      • 👨‍🎤 𝙰𝚁𝚃𝙸𝚂𝚃: ${artists ? artists.map(v => v.name).join(', ') : 'NOT FOUND'}
-      • 💾 𝙰𝙻𝙱𝚄𝙼: ${album ? album.name : 'NOT FOUND'}
-      • 🌐 𝙶𝙴𝙽𝚁𝙴: ${genres ? genres.map(v => v.name).join(', ') : 'NOT FOUND'}
-      • 📆 RELEASE DATE: ${release_date || 'NOT FOUND'}
+      •  𝚃𝚒𝚝𝚕𝚎: ${title}
+      •  𝙰𝚁𝚃𝙸𝚂𝚃: ${artists ? artists.map(v => v.name).join(', ') : 'NOT FOUND'}
+      •  𝙰𝙻𝙱𝚄𝙼: ${album ? album.name : 'NOT FOUND'}
+      •  𝙶𝙴𝙽𝚁𝙴: ${genres ? genres.map(v => v.name).join(', ') : 'NOT FOUND'}
+      •  RELEASE DATE: ${release_date || 'NOT FOUND'}
       `.trim();
 
       fs.unlinkSync(filePath);
