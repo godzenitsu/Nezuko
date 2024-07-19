@@ -65,7 +65,7 @@ if (!fs.existsSync(sessionDir)) {
 
 async function downloadSessionData() {
     if (!config.SESSION_ID) {
-        console.error('Please add your session to SESSION_ID env !!');
+        console.error('Please put your session to SESSION_ID env !!');
         process.exit(1);
     }
     const sessdata = config.SESSION_ID.split("Queen-Nezuko~")[1];
@@ -118,7 +118,7 @@ async function start() {
                     Matrix.sendMessage(Matrix.user.id, { text: `𝐍𝐄𝐙𝐔𝐊𝐎 𝐒𝐓𝐀𝐑𝐓𝐄𝐃` });
                     initialConnection = false;
                 } else {
-                    console.log(chalk.blue("♻️ Connection reestablished after restart."));
+                    console.log(chalk.blue("♻️ Connection restablished after restart."));
                 }
             }
         });
