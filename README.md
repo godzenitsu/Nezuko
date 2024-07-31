@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://kamado-nezuko-web.vercel.app/">
-    <img alt="Queen-Nezuko" height="300" src="https://telegra.ph/file/76db12f1a28abf0953e4f.jpg">
+    <img alt="Queen-Nezuko" height="300" src="https://ik.imagekit.io/eypz/1722404151918_Z5NqzHkR4.png">
   </a>
 </p>
 
