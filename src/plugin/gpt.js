@@ -121,7 +121,7 @@ const mistral = async (m, Matrix) => {
                                     text: answer
                                 }),
                                 footer: proto.Message.InteractiveMessage.Footer.create({
-                                    text: "> © Powered By Nezuko"
+                                    text: "> © 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚀𝚄𝙴𝙴𝙽 𝙽𝙴𝚉𝚄𝙺𝙺"
                                 }),
                                 header: proto.Message.InteractiveMessage.Header.create({
                                     title: "",
