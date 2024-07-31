@@ -11,7 +11,7 @@ const lyricsCommand = async (m, Matrix) => {
     if (!validCommands.includes(cmd)) return;
 
     if (!text) {
-      return m.reply('Please provide a song name to get the lyrics.');
+      return m.reply('Please give a song name to get the lyrics.');
     }
 
     m.reply('Searching for lyrics, please wait...');
@@ -23,11 +23,11 @@ const lyricsCommand = async (m, Matrix) => {
     }
 
     const replyMessage = `
-      *✍️ Title:* ${result.title}
-      *👨‍🎤 Author:* ${result.author}
-      *🔗 Url:* ${result.link}
+      *➥ Title:* ${result.title}
+      *➥ Author:* ${result.author}
+      *➥ Url:* ${result.link}
 
-      *📝 Lyrics:*\n\n ${result.lyrics}
+      *➥ Lyrics:*\n\n ${result.lyrics}
     `.trim();
 
     m.reply(replyMessage);
