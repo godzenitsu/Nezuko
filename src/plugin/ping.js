@@ -8,7 +8,7 @@ const ping = async (m, sock) => {
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
-    const text = `*ʟᴀᴛᴇɴᴄʏ: ${responseTime.toFixed(2)} ms_*`;
+    const text = `*❮ ʟᴀᴛᴇɴᴄʏ ❯: ${responseTime.toFixed(2)} ᴍꜱ_*`;
     sock.sendMessage(m.from, { text }, { quoted: m });
   }
 }
