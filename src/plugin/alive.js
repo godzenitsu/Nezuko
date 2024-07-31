@@ -12,13 +12,13 @@ const alive = async (m, Matrix) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).toLowerCase() : '';
     if (['alive', 'uptime', 'runtime'].includes(cmd)) {
 
-  const uptimeMessage = `*⛥ 𝚀𝚞𝚎𝚎𝚗 𝙽𝚎𝚣𝚞𝚔𝚘 𝚂𝚝𝚊𝚝𝚞𝚜 𝙾𝚟𝚎𝚛𝚟𝚒𝚎𝚠*
+  const uptimeMessage = `*𝙽𝙴𝚉𝚄𝙺𝙾 𝙸𝚂 𝙰𝙻𝙸𝚅𝙴*
 _________________________________________
 
-*📆 ${days} Day*
-*🕰️ ${hours} Hour*
-*⏳ ${minutes} Minute*
-*⏲️ ${seconds} Second*
+*⛯ ${days} Day*
+*⛯ ${hours} Hour*
+*⛯ ${minutes} Minute*
+*⛯ ${seconds} Second*
 _________________________________________
 `;
 
@@ -26,14 +26,14 @@ _________________________________________
         {
           "name": "quick_reply",
           "buttonParamsJson": JSON.stringify({
-            display_text: "MENU",
+            display_text: "𝙼𝙰𝙸𝙽-𝙼𝙴𝙽𝚄",
             id: `.menu`
           })
         },
         {
           "name": "quick_reply",
           "buttonParamsJson": JSON.stringify({
-            display_text: "PING",
+            display_text: "𝙿𝙸𝙽𝙶",
             id: `.ping`
           })
         }
@@ -51,7 +51,7 @@ _________________________________________
             text: uptimeMessage
           }),
           footer: proto.Message.InteractiveMessage.Footer.create({
-            text: "© Powered By Nezuko"
+            text: "© QUEEN-NEZUKO"
           }),
           header: proto.Message.InteractiveMessage.Header.create({
             title: "",
