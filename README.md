@@ -30,7 +30,7 @@
 
 ### 2. GET SESSION ID 
 
-<a href='https://queen-nezuko-web.onrender.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-black?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href='https://replit.com/@godzenitsu12/Nezuko-repl-1' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-black?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 ### DEPLOY TO HEROKU
 
