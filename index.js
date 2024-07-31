@@ -95,7 +95,7 @@ async function start() {
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: true,
-            browser: ["NEZUKO-MD", "safari", "3.3"],
+            browser: ["NEZUKO-MD", "chrome", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
