@@ -33,7 +33,7 @@ const song = async (m, Matrix) => {
     }
 
     try {
-      await m.React("🕘");
+      await m.React("🚀");
 
 
       const info = await ytdl.getInfo(text);
@@ -75,13 +75,13 @@ const song = async (m, Matrix) => {
             },
             interactiveMessage: proto.Message.InteractiveMessage.create({
               body: proto.Message.InteractiveMessage.Body.create({
-                text: `NEZUKO Video Downloader\n*🔍Title:* ${videoDetails.title}\n*➻ Author:* ${videoDetails.author}\n*➻ Views:* ${videoDetails.views}\n*➻ Likes:* ${videoDetails.likes}\n*➻ Upload Date:* ${videoDetails.uploadDate}\n*🏮 Duration:* ${videoDetails.duration}\n`
+                text: `𝙽𝙴𝚉𝚄𝙺𝙾 𝚅𝙸𝙳𝙴𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁\n*➥ Title:* ${videoDetails.title}\n*➥ Author:* ${videoDetails.author}\n*➥ Views:* ${videoDetails.views}\n*➥ Likes:* ${videoDetails.likes}\n*➥ Upload Date:* ${videoDetails.uploadDate}\n*➥ Duration:* ${videoDetails.duration}\n`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "© Powered By NEZUKO"
+                text: "© 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚀𝚄𝙴𝙴𝙽-𝙽𝙴𝚉𝚄𝙺𝙺"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
-                ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/76db12f1a28abf0953e4f.jpg` } }, { upload: Matrix.waUploadToServer })),
+                ...(await prepareWAMessageMedia({ image: { url: `https://ik.imagekit.io/eypz/1722404151918_Z5NqzHkR4.png` } }, { upload: Matrix.waUploadToServer })),
                 title: "",
                 gifPlayback: true,
                 subtitle: "",
@@ -92,11 +92,11 @@ const song = async (m, Matrix) => {
                   {
                     name: "single_select",
                     buttonParamsJson: JSON.stringify({
-                      title: "🎬 Select a video quality",
+                      title: " 📂𝚂𝙴𝙻𝙴𝙲𝚃 𝙰 𝚅𝙸𝙳𝙴𝙾 𝚀𝚄𝙰𝙻𝙸𝚃𝚈",
                       sections: [
                         {
-                          title: "☁️ Available Qualities",
-                          highlight_label: "💡 Choose Quality",
+                          title: "🛠️ Available Qualities",
+                          highlight_label: "🚀 Choose Quality",
                           rows: qualityButtons
                         },
                       ]
