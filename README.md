@@ -1,6 +1,6 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://ik.imagekit.io/eypz/1722404151918_Z5NqzHkR4.png'/></a>
+
 
 ## QUEEN-NEZUKO a simple Multi device Whatsapp Bot   
 ### Setup 
