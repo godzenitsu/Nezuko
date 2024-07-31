@@ -45,7 +45,8 @@
 
 3. ## Deploy to Koyeb ↓
 
-<a href="https://app.koyeb.com/services/deploy/?type=git&repository=github.com%2Fgodzenitsu%2f Nezuko&branch=main&name=Nezuko-md&builder=dockerfile&env%5BAUTO_BLOCK=false%5D=&env%5BSESSION_ID%5D=your%20sessionid%20here&env%5BMODE%5D=public&env=%5BAUTO_READ%5D%3Dfalse&env%5BAUTO_STATUS_SEEN%5D=true" target="blank"><img align="center" src="https://i.imgur.com/PNoLtFq.png" width="300" height="100" alt="Deploy bot"/></a>
+<a href='https://app.koyeb.com/services/deploy/?type=git&repository=github.com%2Fgodzenitsu%2f Nezuko&branch=main&name=Nezuko-md&builder=dockerfile&env%5BAUTO_BLOCK=false%5D=&env%5BSESSION_ID%5D=your%20sessionid%20here&env%5BMODE%5D=public&env=%5BAUTO_READ%5D%3Dfalse&env%5BAUTO_STATUS_SEEN%5D=true' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+
 
 
 
@@ -53,7 +54,7 @@
 ## DEVELOPERS
 
 <div align="left">
-  <a href="https://github.com/godzenitsu"><img src="https://telegra.ph/file/7d301fe696cea1cddad2a.jpg" width="300" height="250" alt="Sid"></a>
+  <a href="https://github.com/godzenitsu"><img src="https://telegra.ph/file/7d301fe696cea1cddad2a.jpg" width="100" height="100" alt="Sid"></a>
   
   | [Zenitsu](https://github.com/godzenitsu) |
   | Owner, Developer, Bug Fixer, Maintainer, updates |
