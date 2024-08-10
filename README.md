@@ -22,7 +22,7 @@
 
 5. Deploy on Heroku
    <br>
-<a href='https://app.koyeb.com/services/deploy/?type=git&repository=github.com%2Fgodzenitsu%2f Nezuko&branch=main&name=Nezuko-md&builder=dockerfile&env%5BAUTO_BLOCK=false%5D=&env%5BSESSION_ID%5D=your%20sessionid%20here&env%5BMODE%5D=public&env=%5BAUTO_READ%5D%3Dfalse&env%5BAUTO_STATUS_SEEN%5D=true' target="_blank"><img alt='Deploy' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://app.koyeb.com/services/deploy/?type=git&repository=github.com%2Fgodzenitsu%2f Nezuko&branch=main&name=Nezuko-md&builder=dockerfile&env%5BAUTO_BLOCK=false%5D=&env%5BSESSION_ID%5D=your%20sessionid%20here&env%5BMODE%5D=public&env=%5BAUTO_READ%5D%3Dfalse&env%5BAUTO_STATUS_SEEN%5D=true' target="_blank"><img alt='Deploy' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
