@@ -1,5 +1,5 @@
 {
-  "name": "Queen-Nezukk",
+  "name": "Queen-Nezuko",
   "version": "10.8.1",
   "description": "Nezuko-MD latest multi device whatsapp bot",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@google/generative-ai": "^0.9.0",
     "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": "git+https://github.com/VajiraTech/VAJIRA-BAILEYS.git",
+    "@whiskeysockets/baileys": "latest",
     "acrcloud": "^1.4.0",
     "api-dylux": "^1.8.3",
     "aptoide-scraper": "^1.0.1",
